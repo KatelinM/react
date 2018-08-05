@@ -42,16 +42,17 @@ a{
 }
 .container-filter>*:nth-child(n+2){
   border: 1px solid #bfbfbf;
+  padding: 12px 20px 12px 20px;
 }
 .filter{
   background-color: #e2e2e2;
 }
 .filter-text{
-  padding: 5px 10px;
   font-size: 16px;
   flex: 1 1 auto;
   background: url(../img/search.png) no-repeat 98% 50%;
   background-color: white;
+  line-height: 1.4;
 }
 .filter-input{
   flex: 1 1 auto;
@@ -112,23 +113,25 @@ a{
   cursor: pointer;
 }
 .article-name{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #7eafd4;
 	line-height: 2;
   text-transform: uppercase;
 }
-.article-number{
+.article-title{
 	font-size: 18px;
-  color: #353535;
+  color: #1b3e6f;
+  line-height: 1.3;
+  padding-bottom: 5px;
 }
-.article-email{
+.article-content{
 	font-size: 14px;
-  color: #353535;
+  color: #44484e;
 }
 .article-info{
 	text-align: left;
-	padding: 10px;
+	padding: 10px 0 35px 20px;
 }
 button{
 	color: #013f86;
@@ -138,6 +141,7 @@ button{
   height: 50px;
   cursor: pointer;
   margin: 40px;
+  font-size: 18px;
 }
 .popup{
   position: fixed;
